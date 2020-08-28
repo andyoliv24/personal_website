@@ -6,8 +6,9 @@ import DiscoverFinancialPicture from '../../../images/DFSPicture.png';
 const Discover = () => {
   return (
     <MDBCol>
-      <MDBCard style={{ width: "22rem", "margin-top": "2rem" }}>
-        <MDBCardImage className="img-fluid" src={DiscoverFinancialPicture} waves style={{ height: "20rem"}}  />
+      <MDBCard style={{ width: "22rem", "margin-top": "2rem"}}>
+        <MDBCardImage className="img-fluid" src={DiscoverFinancialPicture} 
+        waves style={{ height: "15rem", width: "22rem", padding: "1rem"}}  />
         <MDBCardBody>
           <MDBCardTitle>Software Developer</MDBCardTitle>
           <MDBCardText>

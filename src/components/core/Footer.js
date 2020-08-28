@@ -7,23 +7,25 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
+            <h5 className="title">Contact:</h5>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content.
+              Email: Andy_240311@hotmail.com
+              <hr></hr>
             </p>
           </MDBCol>
           <MDBCol md="6">
             <h5 className="title">Links</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!"><MDBIcon fab icon="linkedin" size="2x" className="white-text" />LinkedIn </a>
+                <a href="https://www.linkedin.com/in/andy-olivares-a66263166/"><MDBIcon fab icon="linkedin" size="2x" className="text-primary" />&nbsp;&nbsp; LinkedIn </a>
               </li>
+              <br></br>
               <li className="list-unstyled">
-                <a href="#!"><MDBIcon fab icon="github" size="2x" className="black-text" />Github</a>
+                <a href="https://github.com/andyoliv24"><MDBIcon fab icon="github" size="2x" className="black-text" />&nbsp;&nbsp; Github</a>
               </li>
+              <br></br>
               <li className="list-unstyled">
-                <a href="#!"><MDBIcon icon="file" size="2x" className="white-text" />Resume</a>
+               <a href="https://onedrive.live.com/view.aspx?cid=86631D97C6F3B559&resid=86631D97C6F3B559%2124318&canary=ZK2VWzcxLtWfF%2BLE7Xkqvuetb%2BAVlWJB2cc5KnZRq7o%3D6&ithint=%2Epdf&open=true&app=WordPdf"><MDBIcon icon="file-pdf" size="2x" className="red-text" /> &nbsp;&nbsp;Resume</a>
               </li>
             </ul>
           </MDBCol>

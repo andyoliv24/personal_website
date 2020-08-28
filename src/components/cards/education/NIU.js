@@ -8,7 +8,7 @@ const NIU = () => {
       <MDBCard class="mb-4" style={{ width: "22rem", "margin-top": "2rem"}}>
         <MDBCardImage className="img-fluid" 
         src={NiuImage} waves
-        style={{ height: "20rem"}} />
+        style={{ height: "15rem", width: "22rem"}} />
         <MDBCardBody>
           <MDBCardTitle>Northern Illinois University</MDBCardTitle>
           <MDBCardText>

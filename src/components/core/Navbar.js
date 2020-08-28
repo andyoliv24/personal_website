@@ -3,6 +3,7 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
+import ModalReference from '../modals/ModalReference';
 
 class Navbar extends Component {
 state = {
@@ -16,18 +17,15 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbar color="blue" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Andy Olivares</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
-            <MDBNavItem active>
-              <MDBNavLink to="#!">Home</MDBNavLink>
-            </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Contact</MDBNavLink>
+              <ModalReference/>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>

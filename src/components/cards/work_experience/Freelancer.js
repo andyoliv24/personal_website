@@ -7,7 +7,7 @@ const Freelancer = () => {
   return (
     <MDBCol>
       <MDBCard style={{ width: "22rem", "margin-top": "2rem" }}>
-        <MDBCardImage className="img-fluid" src={FreelancerPicture} waves style={{ height: "20rem"}} />
+        <MDBCardImage className="img-fluid" src={FreelancerPicture} waves style={{ height: "15rem", width: "22rem"}} />
         <MDBCardBody>
           <MDBCardTitle>Freelancer</MDBCardTitle>
           <MDBCardText>

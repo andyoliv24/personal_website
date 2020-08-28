@@ -6,7 +6,8 @@ const Staugustine = () => {
   return (
     <MDBCol>
       <MDBCard style={{ width: "22rem", "margin-top": "2rem" }}>
-        <MDBCardImage className="img-fluid" src={StAgustinePicture} waves style={{ height: "20rem"}} />
+        <MDBCardImage className="img-fluid" src={StAgustinePicture} 
+        waves style={{ height: "15rem", width: "22rem", padding: "1rem"}} />
         <MDBCardBody>
           <MDBCardTitle>St. Augustine College</MDBCardTitle>
           <MDBCardText>

@@ -7,7 +7,7 @@ const College = () => {
   return (
     <MDBCol>
       <MDBCard style={{ width: "22rem", "margin-top": "2rem", "margin-bottom": "2rem"  }} >
-        <MDBCardImage className="img-fluid" src={MathPicture} waves style={{ height: "15rem"}} />
+        <MDBCardImage className="img-fluid" src={MathPicture} waves style={{ height: "15rem", width: "22rem"}} />
         <MDBCardBody>
           <MDBCardTitle>Math Tutor</MDBCardTitle>
           <MDBCardText>
@@ -15,6 +15,7 @@ const College = () => {
               <li>Role: Math tutor</li>
               <li>Duties: Aid students when stuck in a math problem</li>
               <li>Experience: 4 months</li>
+              <br></br>
             </ul>
           </MDBCardText>
         </MDBCardBody>
