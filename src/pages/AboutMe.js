@@ -20,7 +20,9 @@ const AboutMe = () => {
             <MDBCardBody>
               <MDBCardTitle className="indigo-text h5 m-4">
                 About Me :)
+                <hr></hr>
               </MDBCardTitle>
+              
               <MDBCardText>
                 Traveling is one of my favorite hobbies along with coding. I'm a very friendly person, I make friends easily.
                 One of the things a love about coding is that I can solve problems with the help of my fellow programmers. Working

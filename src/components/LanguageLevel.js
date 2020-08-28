@@ -12,6 +12,7 @@ import SpringLogo from '../images/programmingIcon/springLogo.png';
 import DjangoLogo from '../images/programmingIcon/djangoLogo.png';
 import HTMLLogo from '../images/programmingIcon/HTMLLogo.png';
 import CSSLogo from '../images/programmingIcon/CSSLogo.png';
+import BootstrapLogo from '../images/programmingIcon/bootstrapLogo.gif'
 
 class MasksPage extends React.Component {
   render() {
@@ -74,6 +75,10 @@ class MasksPage extends React.Component {
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-4">
             <img src={CSSLogo} className="img-fluid z-depth-4" alt="" style={{height:"8rem", width:"10rem"}}/>
+            <LanguageLevel level="95"/>
+          </MDBCol>
+          <MDBCol lg="4" md="6" className="mb-4">
+            <img src={BootstrapLogo} className="img-fluid z-depth-4" alt="" style={{height:"8rem", width:"10rem"}}/>
             <LanguageLevel level="95"/>
           </MDBCol>
         </MDBRow>

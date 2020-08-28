@@ -16,9 +16,9 @@ toggle = () => {
 
 render() {
   return (
-    <MDBContainer>
+    <MDBContainer >
       <MDBBtn onClick={this.toggle}>Skills</MDBBtn>
-      <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
+      <MDBModal isOpen={this.state.modal} toggle={this.toggle} size="lg">
         <MDBModalHeader toggle={this.toggle}>Skill Level</MDBModalHeader>
         <MDBModalBody>
           <ProfilePicture/>

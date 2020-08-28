@@ -1,9 +1,10 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
+import AndyPic from '../../images/Self/profile.jpeg';
 
 const Footer = () => {
   return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4">
+    <MDBFooter color="blue" className="font-medi pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
@@ -11,6 +12,7 @@ const Footer = () => {
             <p>
               Email: Andy_240311@hotmail.com
               <hr></hr>
+              <img src={AndyPic} alt="thumbnail" className="img-thumbnail" style={{height: "13rem", width: "13rem"}}/>
             </p>
           </MDBCol>
           <MDBCol md="6">
