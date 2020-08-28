@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/personal_website/static/css/main.fdcc1cf5.chunk.css",
-    "main.js": "/personal_website/static/js/main.1b39dc48.chunk.js",
-    "main.js.map": "/personal_website/static/js/main.1b39dc48.chunk.js.map",
+    "main.js": "/personal_website/static/js/main.7e62ef0f.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.7e62ef0f.chunk.js.map",
     "runtime-main.js": "/personal_website/static/js/runtime-main.9f821fd9.js",
     "runtime-main.js.map": "/personal_website/static/js/runtime-main.9f821fd9.js.map",
     "static/css/2.849ede68.chunk.css": "/personal_website/static/css/2.849ede68.chunk.css",
     "static/js/2.31b917a0.chunk.js": "/personal_website/static/js/2.31b917a0.chunk.js",
     "static/js/2.31b917a0.chunk.js.map": "/personal_website/static/js/2.31b917a0.chunk.js.map",
     "index.html": "/personal_website/index.html",
-    "precache-manifest.7d8d3b54202688d91ee4ec25177e5ceb.js": "/personal_website/precache-manifest.7d8d3b54202688d91ee4ec25177e5ceb.js",
+    "precache-manifest.5062a354808330f32baa15f24910bb63.js": "/personal_website/precache-manifest.5062a354808330f32baa15f24910bb63.js",
     "service-worker.js": "/personal_website/service-worker.js",
     "static/css/2.849ede68.chunk.css.map": "/personal_website/static/css/2.849ede68.chunk.css.map",
     "static/css/main.fdcc1cf5.chunk.css.map": "/personal_website/static/css/main.fdcc1cf5.chunk.css.map",
@@ -17,13 +17,13 @@
     "static/media/CLogo.jpg": "/personal_website/static/media/CLogo.6c9739e1.jpg",
     "static/media/CSSLogo.png": "/personal_website/static/media/CSSLogo.0fc9d143.png",
     "static/media/DFSPicture.png": "/personal_website/static/media/DFSPicture.353f2680.png",
-    "static/media/FreelancerPicture.webp": "/personal_website/static/media/FreelancerPicture.b4b2a97b.webp",
     "static/media/MathPicture.jpg": "/personal_website/static/media/MathPicture.4ef5aba2.jpg",
     "static/media/NIUPicture.jpg": "/personal_website/static/media/NIUPicture.9c78d560.jpg",
     "static/media/StAgustineCollegePicture.png": "/personal_website/static/media/StAgustineCollegePicture.1807c657.png",
     "static/media/mdb.css": "/personal_website/static/media/arrow_right.8ef6a08c.svg",
     "static/media/djangoLogo.png": "/personal_website/static/media/djangoLogo.1d528e2c.png",
     "static/media/all.min.css": "/personal_website/static/media/fa-solid-900.ee09ad75.woff",
+    "static/media/freelance.jpg": "/personal_website/static/media/freelance.2f13e8c6.jpg",
     "static/media/logo.svg": "/personal_website/static/media/logo.5d5d9eef.svg",
     "static/media/nodeLogo.jpg": "/personal_website/static/media/nodeLogo.41911525.jpg",
     "static/media/phpLogo.png": "/personal_website/static/media/phpLogo.b187e3b1.png",
@@ -36,6 +36,6 @@
     "static/css/2.849ede68.chunk.css",
     "static/js/2.31b917a0.chunk.js",
     "static/css/main.fdcc1cf5.chunk.css",
-    "static/js/main.1b39dc48.chunk.js"
+    "static/js/main.7e62ef0f.chunk.js"
   ]
 }
