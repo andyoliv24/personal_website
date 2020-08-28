@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
-import FreelancerPicture from '../../../images/FreelancerPicture.webp';
+import FreelancerPicture from '../../../images/freelance.jpg';
 
 
 const Freelancer = () => {
