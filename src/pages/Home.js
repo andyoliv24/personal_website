@@ -14,14 +14,14 @@ const Home = () => {
 
   return (
     <>
-    
-  <MDBContainer >
-        <h2 className="h1-responsive font-weight-bold my-5 text-center my-5">
+            <h2 className="h1-responsive font-weight-bold my-5 text-center my-5">
           Education
         </h2>
+  <MDBContainer className="d-flex justify-content-center">
+
     <MDBRow>
-      <MDBCol lg="6" md="6" className='mb-lg-0 mb-3'><NiuCard/></MDBCol>
-      <MDBCol lg="6" md="6" className='mb-lg-0 mb-3'><StAugustineCard/></MDBCol>
+      <MDBCol md="6"><NiuCard/></MDBCol>
+      <MDBCol md="6"><StAugustineCard/></MDBCol>
     </MDBRow>
   </MDBContainer>
   <hr>
