@@ -29,7 +29,7 @@ const Home = () => {
 
   <MDBContainer>
         <h2 className="h1-responsive font-weight-bold my-5 text-center my-5">
-          Job Experience
+          Work Experience
         </h2>
     <MDBRow between>
         <MDBCol md="4" ><DiscoverCard/></MDBCol>
